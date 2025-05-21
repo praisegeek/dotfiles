@@ -45,7 +45,7 @@ This will:
 
 * Install required packages (Neovim, tmux, node, etc.)
 * Set up `packer.nvim` for plugin management
-* Clone the full config to `~/.config/nvim` and `~/tmux/tmux.conf` (tmux ^3.2)
+* Clone the full config to `~/.config/nvim` and `~/.config/tmux/tmux.conf` (tmux ^3.2)
 * Setup Nerd Font recommendation
 
 ---
