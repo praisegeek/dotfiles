@@ -23,10 +23,10 @@ This setup provides a fully functional Neovim and tmux configuration tailored fo
 ### Tmux
 - Prefix: `Ctrl + Space`
 - Grid layouts:
-  - `Ctrl + Space + t4` → 4x4 grid
-  - `Ctrl + Space + t3` → 1 top, 3x3 bottom
-  - `Ctrl + Space + t2` → 1 left, 1 right (top/bottom)
-- Pane navigation: `Ctrl + Space + ←/→/↑/↓`
+  - `Alt-Space-4` → 4x4 grid
+  - `Alt-Space-3` → 1 top, 3x3 bottom
+  - `Alt-Space-2` → 1 left, 1 right (top/bottom)
+- Pane navigation: `Alt + ←/→/↑/↓`
 
 ---
 
