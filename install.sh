@@ -28,10 +28,10 @@ fi
 
 # Setup TPM
 if [ ! -d "$HOME/.config/tmux/plugins/tpm" ]; then
-  git clone https://github.com/tmux-plugins/tpm $HOME/tmux/plugins/tpm
+  git clone https://github.com/tmux-plugins/tpm $HOME/.config/tmux/plugins/tpm
 fi
 
-$HOME/tmux/plugins/tmp/bin/install_plugins
+$HOME/.config/tmux/plugins/tpm/bin/install_plugins
 
 # Alias vim to nvim
 if ! grep -q "alias vim='nvim'" ~/.bashrc; then
