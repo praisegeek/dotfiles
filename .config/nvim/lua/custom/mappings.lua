@@ -56,7 +56,7 @@ vim.keymap.set("n", "<leader>D", vim.lsp.buf.type_definition, { desc = "LSP Type
 vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "LSP Definition" })
 vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "LSP Implementation" })
 vim.keymap.set("n", "gr", vim.lsp.buf.references, { desc = "LSP References" })
-vim.keymap.set("n", "<leader>f", function()
+vim.keymap.set("n", "<leader>F", function()
   vim.diagnostic.open_float { border = "rounded" }
 end, { desc = "Floating Diagnostic" })
 vim.keymap.set("n", "[d", function()
